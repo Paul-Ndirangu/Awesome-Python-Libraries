@@ -1,0 +1,7 @@
+Collecting contractions
+  Downloading contractions-0.1.73-py2.py3-none-any.whl (8.7 kB)
+Requirement already satisfied: textsearch>=0.0.21 in ./venv/lib/python3.10/site-packages (from contractions) (0.0.24)
+Requirement already satisfied: anyascii in ./venv/lib/python3.10/site-packages (from textsearch>=0.0.21->contractions) (0.3.2)
+Requirement already satisfied: pyahocorasick in ./venv/lib/python3.10/site-packages (from textsearch>=0.0.21->contractions) (2.0.0)
+Installing collected packages: contractions
+Successfully installed contractions-0.1.73
