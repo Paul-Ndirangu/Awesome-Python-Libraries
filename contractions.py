@@ -1,5 +1,6 @@
 # import library
 import contractions
+
 # contracted text
 text = '''I'll be there within 5 min. Shouldn't you be there too? 
 		I'd love to see u there my dear. It's awesome to meet new friends.
