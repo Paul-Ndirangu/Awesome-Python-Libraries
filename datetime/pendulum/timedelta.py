@@ -1,13 +1,9 @@
 import pendulum
-
-dur = pendulum.duration(days=15)
-
-# More properties
-dur.weeks
-dur.hours
-
-# Handy methods
-dur.in_hours()
-360
-dur.in_words(locale="en_us")
-# '2 weeks 1 day'
+time_delta = pendulum.duration(days = 2,
+                               hours = 10, 
+                               years = 2)
+print(time_delta)
+ 
+# Date when i am writing this code is 2020-11-27.
+print('future date =', 
+      pendulum.now() + time_delta)
