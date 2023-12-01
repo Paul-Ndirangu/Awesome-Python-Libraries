@@ -9,3 +9,6 @@ print(f"Created DateTime: {dt}")
 dt.to_day_datetime_string()
 formatted_str = dt.format('dddd Do [of] MMMM YYYY HH:mm:ss A')
 print(f"Formated DateTime: {formatted_str}")
+
+new_str = dt.strftime('%Y-%m-%d %H:%M:%S %Z%z')
+print(f"New DateTime: {new_str}")
